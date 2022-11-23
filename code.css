@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(./img/ilya.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(0,0,0,0.2);
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 25%;
+    text-align: center;
+}
+
+.about {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about a {
+    width: 25%;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    transition: 1.5s;
+}
+
+.about a:hover {
+    color: rgb(85, 84, 84);
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.once h3 {
+    font-size: 35px;
+    font-weight: 200;
+    word-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.once h1 {
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+
+.once p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.once a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.once .btnone {
+    background: #fff;
+    color: #000;
+    transition: 0.5s all ease;
+}
+
+.once .btnone:hover {
+    background: rgb(85, 84, 84);
+    color: #fff;
+}
+
+.once .btntwo {
+    background: rgb(85, 84, 84);
+    color: #fff;
+}
+
+.change_content:after {
+    content: '';
+    animation: changetext 8s infinite linear;
+    color: rgb(85, 84, 84);
+}
+
+@keyframes changetext {
+    0%{content:"HTML";}
+    25%{content:"CSS";}
+    35%{content:"Tailwindcss";}
+    50%{content:"JAVASCRIPT";}
+    80%{content:"REACT";}
+    100%{content:"NODE.JS";}
+}
+
+/* <!--------- about the code ------> */
+
+.saqlain {
+    display: flex;
+    padding-left: 20px;
+}
+
+.strong {
+    padding: 10%;
+}
+
+.Vipp {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    padding-top: 30%;
+}
+
+.code {
+    padding-top: 9%;
+    line-height: 20px;
+    font-weight: 100;
+}
+
+.cover img {
+    margin: 20px;
+    object-fit: cover;
+    padding-top: 25%;
+    width: 70%;
+    height: 100vh;
+    border-radius: 20px;
+}
+
+.btn {
+    padding-top: 15%;
+}
+
+.strong a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.strong .btnone {
+    background: rgb(189, 186, 186);
+    color: #000;
+    transition: 0.5s all ease;
+}
+
+.strong .btnone:hover {
+    background: rgb(85, 84, 84);
+    color: #fff;
+}
+
+.strong .btntwo {
+    background: rgb(189, 186, 186);
+    color: #000;
+    transition: 0.5s all ease;
+}
+
+.strong .btntwo:hover {
+    background: rgb(85, 84, 84);
+    color: #fff;
+}
+
+/* <!--------- An coding --------> */
+
+.Our {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(./img/Couple.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.copper {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 200;
+    word-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.copper h3 {
+    text-align: center;
+    padding-top: 23%;
+}
+
+.copper img { 
+    padding-left: 45%;
+    width: 50%;
+    padding-top: 10px;
+}
+
+/* <!------------------ Take a look at our code --------------> */
+
+.take-after {
+    padding: 10%;
+}
+
+.take-blew {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.take-sec {
+    padding-top: 6%;
+    line-height: 20px;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.take-looks {
+    display: flex;
+}
+
+.take-img {
+    padding-left: 24px;
+    
+}
+.take-img img {
+    height: 90vh;
+    width: 148%;
+}
+
+.take-btn {
+    padding-top: 15%;
+}
+
+.take-btn a {
+    margin-left: 20%;
+    padding: 15px 30px;
+    border-radius: 35px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.take-btn .take-btnto { 
+    background: rgb(189, 186, 186);
+    color: #000;
+    transition: 0.5s all ease;
+}
+    
+.take-btn .take-btnto:hover {
+    background: rgb(85, 84, 84);
+    color: #fff;
+}
+
+/* --footer-- */
+
+#footer {
+    padding: 100px 0 20px;
+    background: #efefef;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.title-text {
+    text-align: center;
+}
+
+.title-text p {
+    margin: 10px;
+}
+
+.footer-row {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left, .footer-right {
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.footer-right {
+    text-align: right;
+}
+
+.title-text img {
+    width: 5%;
+    padding-top: 10px;
+}
+
+.icon-2 {
+    width: 25%;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.footer-right img {
+    width: 25%;
+    padding-right: 60px;
+    padding-top: 10px;
+}
+
+
+
+
